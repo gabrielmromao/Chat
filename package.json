@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "node": "^22.12.0",
+    "nodemon": "^3.1.7"
+  },
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "projeto final",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmromao/Chat.git"
+  },
+  "author": "Gabriel Romão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielmromao/Chat/issues"
+  },
+  "homepage": "https://github.com/gabrielmromao/Chat#readme"
+}

@@ -11,10 +11,10 @@ app.use(session({
     secret: 'chave-secreta',
     resave: false,
     saveUninitialized: true,
-    cookie: { maxAge: 1800000 } // 30 minutos
+    cookie: { maxAge: 1800000 } 
 }));
 
-// Middleware para restringir acesso a páginas
+// restringe acesso a páginas
 function verificarLogin(req, res, next) {
     if (!req.session.usuario) {
         return res.redirect('/');
